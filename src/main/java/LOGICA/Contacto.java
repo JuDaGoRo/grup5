@@ -13,7 +13,6 @@ public class Contacto {
     private int identificacion;
     private String nombre;
     private String apellido;
-    private String genero;
     private String tipoIdentificacion;
     private String telefono;
     private String dirección;
@@ -43,13 +42,6 @@ public class Contacto {
         this.apellido = apellido;
     }
 
-    public String getGenero() {
-        return genero;
-    }
-
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
 
     public String getTipoIdentificacion() {
         return tipoIdentificacion;
